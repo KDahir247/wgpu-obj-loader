@@ -11,13 +11,13 @@ resolver = "2"
 fabled_math = {path ="../fabled_math", version = "*"}
 
 [target.'cfg(any(windows, linux))'.dependencies.wgpu-hal]
-version = "0.14.1"
+version = "0.21.0"
 features = ["vulkan", "dx12", "dx11", "renderdoc"]
 # Do i need all vulkan, dx12, dx11 bloat.
 # Move renderdoc to a conditional feature for development
 
 [target.'cfg(macos)'.dependencies.wgpu-hal]
-version = "0.14.1"
+version = "0.21.0"
 features = ["metal", "renderdoc"]
 # Move renderdoc to a conditional feature for development
 

@@ -11,5 +11,5 @@ fabled_transform = {path = "../fabled_transform", version = "*"}
 fabled_render = {path = "../fabled_render", version = "*"}
 fabled_math = {path = "../fabled_math", version = "*"}
 rayon = {version = "1.5.1"}
-bitflags = {version = "1.2.1"}
+bitflags = {version = "2.6.0"}
 crunchy = {version = "0.2.2", features = ["default"]}

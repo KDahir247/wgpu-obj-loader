@@ -16,7 +16,7 @@ basis-universal-sys = "0.2.0"
 fabled_component = {path ="../fabled_component", version = "*"}
 fabled_math = {path ="../fabled_math", version = "*"}
 
-thiserror = "1.0.30"
+thiserror = "2.0.4"
 
 # Features
 [features]

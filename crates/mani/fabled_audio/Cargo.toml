@@ -14,7 +14,7 @@ cpal = {version = "0.13.4"}
 ambisonic = {version = "0.4.1" }
 
 hound = {version = "3.4.0"}
-ogg = {version = "0.8.0", features = ["async"]}
+ogg = {version = "0.9.2", features = ["async"]}
 lewton = {version = "0.10.2", features = ["async_ogg"]}
 claxon = {version = "0.4.3"}
 minimp3 = {version ="0.5.1", features = ["async_tokio"]}
